@@ -22,3 +22,13 @@ It supports the use of Directives but you *MUST* use double quotes like this:
 ```
 %%{ init: { "sequence": { "noteAlign": "left"} } }%%
 ```
+At the beginning of the file like:
+
+```
+%%{ init: { "sequence": { "noteAlign": "left"} } }%%
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
+<script src='https://cdn.jsdelivr.net/gh/obaqueiro/mermaid-js-auto-renderer@master/mermaid-js-autorenderer.js'/></script>
+```
