@@ -15,3 +15,10 @@ sequenceDiagram
 
 And are rendered as diagrams in the browser.
 
+## Directives
+
+It supports the use of Directives but you *MUST* use double quotes like this:
+
+```
+%%{ init: { "sequence": { "noteAlign": "left"} } }%%
+```
