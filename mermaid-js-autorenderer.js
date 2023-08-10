@@ -18,8 +18,6 @@ if (parts.length > 1) {
     diagram = parts[0];
 }
 
-console.log(diagram)
-
 const x = document.createElement('pre');
 x.classList.add('mermaid');
 x.innerHTML= diagram;
