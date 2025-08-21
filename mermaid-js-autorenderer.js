@@ -24,7 +24,7 @@ x.innerHTML= diagram;
 document.body.appendChild(x);
 
 const a = document.createElement('script'); 
-a.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.3.0/mermaid.min.js');
+a.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.4/mermaid.min.js');
 document.head.appendChild(a);
 a.onload = function() {
     // Initialize the mermaid library with the extracted settings
